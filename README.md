@@ -2,6 +2,10 @@
 
 A simple PHP-based Census Record Management System with user authentication and modules for managing geographic and demographic data, including regions, provinces, municipalities, barangays, households, and residents.
 
+Project Developers:
+- Joshua B. Concejo
+- Maithon Von Jaze M. Gonzaga
+  
 Project Structure
 
 - `census_db.sql` – SQL dump file to set up the database
