@@ -1,0 +1,88 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #333;
+}
+
+.navbar {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.button-green {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-green:hover {
+  background-color: #219150;
+}
+
+.login-box {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #27ae60;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error-msg {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 50px;
+  font-size: 14px;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .navbar, .container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
